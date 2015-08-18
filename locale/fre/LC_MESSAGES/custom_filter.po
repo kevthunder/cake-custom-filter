@@ -1,0 +1,91 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2011-08-08 11:28-0500\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgid "Reset"
+msgstr "Réinitialiser"
+
+msgid "New Filter"
+msgstr "Nouveau Filtre"
+
+msgid "Field"
+msgstr "Champ"
+
+msgid "Not"
+msgstr "Exclure"
+
+msgid "Not : %s"
+msgstr "Exclure : %s"
+
+msgid "Operator"
+msgstr "Opération"
+
+msgid "Equals"
+msgstr "Est égal à"
+
+msgid "Contains"
+msgstr "Contient"
+
+msgid "Starts with"
+msgstr "Commence par"
+
+msgid "Ends with"
+msgstr "Se termine par"
+
+msgid "Bigger Than"
+msgstr "Plus grand que"
+
+msgid "Smaller Than"
+msgstr "Plus petit que"
+
+msgid "After"
+msgstr "Plus récent que"
+
+msgid "Before"
+msgstr "Plus ancien que"
+
+
+msgid "Between"
+msgstr "Entre"
+
+msgid "Bigger or equal to"
+msgstr "Plus grand ou égale à"
+
+msgid "Smaller or equal to"
+msgstr "Plus petit ou égale à"
+
+msgid "Add condition"
+msgstr "Ajouter un critère"
+
+msgid "Results that match this condition will be excluded"
+msgstr "Les résultats qui répondent à cette condition seront exclus"
+
+msgid "And"
+msgstr "Et"
+
+msgid "From"
+msgstr "Du"
+
+msgid "To"
+msgstr "Au"
+
+msgid "Filters"
+msgstr "Filtres"
+
+msgid "Add filter"
+msgstr "Nouveau filtre"
+
+msgid "Filter name"
+msgstr "Nom du filtre"
+
+
+
+

@@ -1,0 +1,265 @@
+/************************** Optionnal container **************************/
+
+.filteredContainer.toolsLeft{
+	display:table;
+	width:100%;
+	*min-width:1550px;
+}
+.filteredContainer.toolsLeft .filteredContent{
+	display:table-cell;
+	*float:left;
+}
+.filteredContainer.toolsLeft .customFilters{
+	display:table-cell;
+	*float:left;
+	width:135px;
+	padding:0 15px 15px 0;
+}
+
+
+
+/************************** Filter List **************************/
+.customFilters  h3{
+	padding:0;
+	margin:0 0 5px 0;
+}
+.customFilters .filters{
+	margin:0 0 15px;
+}
+.customFilters .filters ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.customFilters .filters ul li{
+	list-style:none;
+	padding:0 0 0 18px;
+	margin:0;
+}
+.customFilters .filters ul li.active{
+	background: url(../img/checked.png) no-repeat center left;
+	font-weight:bold;
+}
+.customFilters .filters ul li:hover .actions{
+  background:#ffffff;
+  position:absolute;
+  padding:1px 3px 1px 5px;
+	display:inline;
+}
+.customFilters .actions{
+	display:none;
+}
+.customFilters .actions .customFilterBtLock{
+	background: url(../img/icon_unlocked.png) no-repeat center top;
+	width:12px;
+	height:12px;
+	text-indent:12px;
+	overflow:hidden;
+	display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.customFilters .actions .customFilterBtLock:hover{
+	background-position: center bottom;
+}
+.customFilters .actions .customFilterBtUnlock{
+	background: url(../img/icon_locked.png) no-repeat center top;
+	width:12px;
+	height:12px;
+	text-indent:12px;
+	overflow:hidden;
+	display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.customFilters .actions .customFilterBtUnlock:hover{
+	background-position: center bottom;
+}
+.customFilters .actions .customFilterBtEdit{
+	background: url(../img/icon_edit.png) no-repeat center top;
+	width:12px;
+	height:12px;
+	text-indent:12px;
+	overflow:hidden;
+	display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.customFilters .actions .customFilterBtEdit:hover{
+	background-position: center bottom;
+}
+.customFilters .actions .btDelete{
+	background: url(../img/icon_delete.png) no-repeat center top;
+	width:20px;
+	height:12px;
+	text-indent:20px;
+	overflow:hidden;
+	display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.customFilters .actions .btDelete:hover{
+	background-position: center bottom;
+}
+
+.customFilters .action .btDelete{
+	font-weight:bold;
+}
+.customFilters .addButton {
+	display:block;
+	margin: 15px 0 0 0;
+}
+
+
+
+
+/************************** Filter Form **************************/
+.customFiltersForm{
+	background: #ffffff;
+}
+.customFiltersForm legend{
+	padding: 15px 15px 15px;
+	background: #00559e;
+	color: #fff;
+	display: block;
+	width: 100%;
+}
+.customFiltersForm fieldset{
+	padding: 0px;
+}
+
+.customFiltersForm form div.submit{
+	margin:0;
+}
+
+.customFiltersForm .FilterType{
+	min-height:20px;
+	padding:0;
+}
+.customFiltersForm .FilterType.loading{
+	background: url(../img/ajax-loader.gif) no-repeat center center;
+}
+
+.customFiltersForm{
+}
+
+.fieldSection{
+	padding: 15px;
+	margin:0;
+	background: #eeeeee;	
+}
+.fieldSection .input.checkbox{
+  float:left;
+  clear:none;
+}
+.fieldSection .input.checkbox label{
+  float:left;
+}
+
+.saveFields{
+  clear:none;
+  padding:0px;
+}
+
+.customFilterCondEditor{
+	padding: 0px 15px 15px;
+	width: 590px;
+	border-bottom: 1px solid #00559e;
+	border-top: 1px solid #00559e;
+	background: #fff url(../img/bg-tableau.png) repeat-y right center;	
+}
+.customFilterCondEditor:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+* html              .customFilterCondEditor { zoom: 1; } /* IE6 */
+*:first-child+html  .customFilterCondEditor { zoom: 1; } /* IE7 */
+
+.customFilterCondEditor .customFilterCondModel{
+	display:none;
+}
+
+.customFilterCondEditor .customFilterCondForm{
+	float:left;
+	clear:none;
+	padding: 0;
+	margin: 0;
+	display:none;
+}
+.customFilterCondEditor .customFilterCondForm.active{
+	display:block;
+}
+.customFilterCondEditor .operationVariantes, .customFilterCondEditor .operationVariantes .variante{
+	padding: 0;
+	margin: 0;
+}
+
+.customFilterCondEditor .customFilterCondList{
+	float:right;
+	clear:none; 
+	width: 240px;
+	padding: 0px 0px 0px 15px;
+	margin: 0px 0px 0px 27px;
+}
+.customFilterCondEditor .customFilterCondList ul{
+	list-style:none;
+	padding: 0;
+	margin: 0px 0px 15px 0;
+}
+.customFilterCondEditor .customFilterCondList ul li{
+	list-style:none;
+	padding: 0;
+	margin: 0;
+}
+.customFilterCondEditor .customFilterCondList .customFilterCondMenuItem.active{
+	font-weight:bold;
+}
+.customFilterCondEditor .customFilterCondList .customFilterCondMenuItem.active a{
+	color:#000000;
+}
+
+.customFilterCondEditor .customFilterCondList .customFilterCondDelete{
+	background: url('../img/icon_delete.png') no-repeat right 2px;
+	*background: url('../img/icon_delete.png') no-repeat left top;
+	width:20px;
+	height:14px;
+	text-indent:20px;
+	overflow:hidden;
+	display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.customFilterCondEditor .customFilterCondList .customFilterCondDelete:hover{
+	background-position: right 2px;
+}
+
+.FilterType .input.checkbox label{
+	*margin-top:-15px;
+	float:left;
+}
+.FilterType .input.checkbox .note{
+	font-size: 0.8em;
+}
+
+.customFilterCondForm div.input{
+	max-width: 300px;
+}
+.customFilterCondForm .input.checkbox{
+	margin-bottom: 0px;
+}
+
+.customFilterCondEditor .customFilterCondForm.active, .customFilterCondEditor .customFilterCondList{
+	padding-top: 10px;
+}
+
+.customFilterCondAdd{
+	background: #fff;
+	border: #A3A3A3 solid 1px;
+	padding: 2px 10px;
+	font-weight: bold;
+}
+
